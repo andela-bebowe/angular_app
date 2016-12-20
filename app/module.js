@@ -1,3 +1,4 @@
 angular.module("Member", [
-  "ngRoute"
+  "ngRoute",
+  'angularUtils.directives.dirPagination'
 ])

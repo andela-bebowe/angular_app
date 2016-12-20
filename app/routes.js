@@ -3,10 +3,10 @@ angular.module("Member")
     $routeProvider
       .when("/", {
         controller: "MemberCtrl",
-        template: "templates/members.html"
+        templateUrl: "templates/members.html"
       })
       .when("/:username/comments", {
         controller: "CommentCtrl",
-        template: "templates/comments.html"
+        templateUrl: "templates/comments.html"
       })
   })
