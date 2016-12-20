@@ -13,12 +13,14 @@ describe("MemberCtrl", function () {
           {"login": "name2"}
         ]
       })
+      console.log(deferred.promise.value);
       return deferred.promise
     }
   }))
 
-  beforeEach(inject(function (_$controller_) {
+  beforeEach(inject(function (_$controller_, $rootScope) {
     $controller = _$controller_
+    $scope = $rootScope.$new()
   }))
 
   beforeEach(function () {

@@ -22,8 +22,8 @@ module.exports = function(config) {
       "app/module.js",
       "app/routes.js",
       "app/members.ctrl.js",
-      "app/comments.ctrl.js",
-      "app/comments.svc.js",
+      "app/repos.ctrl.js",
+      "app/repos.svc.js",
       "app/members.svc.js",
       "test/member.spec.js"
     ],

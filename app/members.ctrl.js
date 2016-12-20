@@ -3,7 +3,6 @@ angular.module("Member")
   $scope.members = []
   MemberSvc.fetch()
     .then(function (members) {
-      console.log(members);
       $scope.members = members.data
     })
 }])

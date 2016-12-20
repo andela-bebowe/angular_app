@@ -5,8 +5,8 @@ angular.module("Member")
         controller: "MemberCtrl",
         templateUrl: "templates/members.html"
       })
-      .when("/:username/comments", {
-        controller: "CommentCtrl",
-        templateUrl: "templates/comments.html"
+      .when("/:username/repos", {
+        controller: "ReposCtrl",
+        templateUrl: "templates/repos.html"
       })
   })
